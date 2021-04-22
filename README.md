@@ -1,2 +1,2 @@
 # simple-transit-tiles
-simple web map tiles for transit in canadian cities
+simple grayscale web map tiles for transit in Canadian cities
