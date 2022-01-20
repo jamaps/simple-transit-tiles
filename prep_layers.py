@@ -65,4 +65,4 @@ def transit_from_gtfs(city):
     dft.to_file(city + '/transit_data/gtfs_routes.geojson', driver='GeoJSON')
 
 
-transit_from_gtfs("Edmonton")  
+transit_from_gtfs("Victoria")  
