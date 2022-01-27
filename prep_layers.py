@@ -15,7 +15,7 @@ def transit_from_gtfs(city):
         ]
     }
 
-    zf = zipfile.ZipFile(city + "/transit_data/gtfs.zip") 
+    zf = zipfile.ZipFile(city + "/transit_data/gtfs_rail.zip") 
 
     df = pd.read_csv(zf.open('shapes.txt'))
 
@@ -65,4 +65,4 @@ def transit_from_gtfs(city):
     dft.to_file(city + '/transit_data/gtfs_routes.geojson', driver='GeoJSON')
 
 
-transit_from_gtfs("Ottawa")  
+transit_from_gtfs("Montreal")  
